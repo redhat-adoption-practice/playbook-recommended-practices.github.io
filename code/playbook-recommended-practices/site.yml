@@ -1,6 +1,0 @@
----
-# file: site.yml
-- name: Configure a Wordpress Site
-
-- import_playbook: webservers.yml
-- import_playbook: dbservers.yml
