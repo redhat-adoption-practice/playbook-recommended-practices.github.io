@@ -1,16 +1,1 @@
 = Playbook Recommended Practices
-
-== Name Your Playbooks
-
-It is recommended to describe the playbook. This name is shown when the playbook is run.
-
-.site.yml playbook
-[source,yaml]
-----
----
-# file: site.yml
-- name: Configure a WordPress Site
-
-- import_playbook: webservers.yml
-- import_playbook: dbservers.yml
-----
