@@ -7,5 +7,10 @@ It is recommended to describe the playbook. This name is shown when the playbook
 .site.yml playbook
 [source,yaml]
 ----
-include::code/playbook-recommended-practices/site.yml[]
+---
+# file: site.yml
+- name: Configure a WordPress Site
+
+- import_playbook: webservers.yml
+- import_playbook: dbservers.yml
 ----
