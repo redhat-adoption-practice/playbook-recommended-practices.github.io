@@ -1,0 +1,11 @@
+= Playbook Recommended Practices
+
+== Name Your Playbooks
+
+It is recommended to describe the playbook. This name is shown when the playbook is run.
+
+.site.yml playbook
+[source,yaml]
+----
+include::code/playbook-recommended-practices/site.yml[]
+----
